@@ -19,16 +19,17 @@ This project simulates and audits a trade reconciliation pipeline — a core pro
 ---
 
 ## 📂 Project Structure
-
+```
 trade-reconciliation/
-├── trade_reconciliation.ipynb # Full notebook with code, outputs & markdown
-├── trade_data_generator.py # Script to generate sample datasets
-├── executed_trades.csv # Sample executed trades
-├── reported_trades.csv # Sample reported trades with injected errors
-├── fuzzy_field_mismatches.csv # Output: field-level mismatches
-├── missing_trades.csv # Output: missing trade reports
-├── requirements.txt # List of Python dependencies
-└── README.md # Project overview (this file)
+├── trade_reconciliation.ipynb       # Full notebook with code, outputs & markdown
+├── trade_data_generator.py          # Script to generate sample datasets
+├── executed_trades.csv              # Sample executed trades
+├── reported_trades.csv              # Sample reported trades with injected errors
+├── fuzzy_field_mismatches.csv       # Output: field-level mismatches
+├── missing_trades.csv               # Output: missing trade reports
+├── requirements.txt                 # List of Python dependencies
+└── README.md                        # Project overview (this file)
+```
 
 ---
 
@@ -39,10 +40,10 @@ Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
-
+```
 Make sure MySQL is running and a database named trade_db exists. Set your credentials in the notebook before running MySQL queries.
 
-▶️ Steps
+### ▶️ Steps
 Run trade_data_generator.py to generate realistic trade data
 
 Load trade_reconciliation.ipynb in Jupyter Notebook
@@ -61,7 +62,7 @@ Run SQL summaries
 
 Optionally export results as CSV
 
-💡 What You'll Learn
+## 💡 What You'll Learn
 How to simulate data-driven financial problems
 
 Performing tolerance-based comparison in Python
@@ -72,7 +73,7 @@ Integrating SQL with pandas for backend auditability
 
 Building data pipelines ready for financial compliance reporting
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Python 3.12+
 
 Pandas, NumPy
@@ -81,10 +82,10 @@ MySQL, SQLAlchemy
 
 Jupyter Notebook
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License. Feel free to reuse, extend, or modify.
 
-👤 Author
+## 👤 Author
 Anurag Singh
 B.Tech, IIT Patna
 📫 Reach me at: [anuragsingh133125@gmail.com]
