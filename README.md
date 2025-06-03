@@ -22,7 +22,6 @@ This project simulates and audits a trade reconciliation pipeline — a core pro
 ```
 trade-reconciliation/
 ├── trade_reconciliation.ipynb       # Full notebook with code, outputs & markdown
-├── trade_data_generator.py          # Script to generate sample datasets
 ├── executed_trades.csv              # Sample executed trades
 ├── reported_trades.csv              # Sample reported trades with injected errors
 ├── fuzzy_field_mismatches.csv       # Output: field-level mismatches
@@ -44,8 +43,6 @@ pip install -r requirements.txt
 Make sure MySQL is running and a database named trade_db exists. Set your credentials in the notebook before running MySQL queries.
 
 ### ▶️ Steps
-Run trade_data_generator.py to generate realistic trade data
-
 Load trade_reconciliation.ipynb in Jupyter Notebook
 
 Follow the notebook steps:
