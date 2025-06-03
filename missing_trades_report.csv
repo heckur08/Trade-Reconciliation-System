@@ -1,0 +1,6 @@
+TradeID,B/S_exec,OrdQty_exec,Exch_exec,Contract_exec,Price_exec,Account_exec,TIF_exec,Type_exec,Timestamp_exec,B/S_rep,OrdQty_rep,Exch_rep,Contract_rep,Price_rep,Account_rep,TIF_rep,Type_rep,Timestamp_rep,_merge
+T0017,B,383,CME,ESM5,4250.75,TRADER_B,IOC,Limit,2024-11-01 08:30:00.833,,,,,,,,,,left_only
+T0049,B,431,CME,NQM5,16505.0,TRADER_D,GTC,Limit,2024-11-01 08:30:02.448,,,,,,,,,,left_only
+T0120,B,453,ICE,RTY,2000.0,TRADER_E,GTC,Limit,2024-11-01 08:30:05.971,,,,,,,,,,left_only
+T0146,B,353,CME,ZBM5,141955.0,TRADER_A,Day,Limit,2024-11-01 08:30:07.289,,,,,,,,,,left_only
+T0147,S,37,CME,NQM5,16487.0,TRADER_B,IOC,Limit,2024-11-01 08:30:07.331,,,,,,,,,,left_only
